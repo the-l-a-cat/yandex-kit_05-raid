@@ -4,5 +4,11 @@ Raid scripting exercise.
 Written Sat Sep 27 2014 by the paw of the.l.a.cat.
 You may reach me out at the.l.a.cat@gmail.com or the-l-a-cat at github.
 
+Example usage:
+# sh raid_manage.up.sh
+# mdadm --manage /dev/md/ya_raid_0 --set-faulty /dev/loop1
+# sh raid_manage.heal.sh
+# sh raid_manage.down.sh
+
 --
 No matter what's the odds against you, ever, please feel happy.
